@@ -18,10 +18,6 @@ st.markdown(
         border-radius: 8px;
     }
     
-    /* Input box text color */
-    input[type="text"] {
-        color: #333333 !important;
-    }
     </style>
     """,
     unsafe_allow_html=True,
