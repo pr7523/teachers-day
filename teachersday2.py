@@ -7,11 +7,6 @@ import streamlit as st
 st.markdown(
     """
     <style>
-    /* Main app background color */
-    .stApp {
-        background-color: #fdf0f4;
-    }
-    
     /* Input box styling */
     div[data-baseweb="input"] {
         background-color: #ffffff !important;
