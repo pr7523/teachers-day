@@ -7,7 +7,7 @@ st.markdown("<style>.stApp {background-color: #F4C2C2;}</style>", unsafe_allow_h
 st.title("🌸 Happy Teacher's Day! 🌸")
 name = st.text_input("Enter your name:")
 
-name = st.text_input("Enter your name:")
+
 
 if st.button("💌 Open 💌"):
     name_clean = name.strip()
