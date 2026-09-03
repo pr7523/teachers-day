@@ -23,15 +23,15 @@ st.markdown(
     """
     <style>
     /* 1. Changes text color of ONLY paragraphs and input field labels */
+    /* Leaves h1 (heading) and buttons untouched */
     p, [data-testid="stWidgetLabel"] {
-        color: #D63384 !important; /* Put your desired color here */
+        color: #613B3B !important; /* Put your desired text color here */
     }
     
     </style>
     """, 
     unsafe_allow_html=True
 )
-
 
 name = st.text_input("Enter your name:")
 
