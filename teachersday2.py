@@ -7,13 +7,13 @@ st.markdown(
     <style>
     /* Input box styling */
     div[data-baseweb="input"] {
-        background-color: #ffffff !important;
+        background-color: #DCDCDC !important;
         border-radius: 8px;
     }
     
     /* Input box text color */
     input[type="text"] {
-        color: #333333 !important;
+        color: #DCDCDC !important;
     }
     </style>
     """,
