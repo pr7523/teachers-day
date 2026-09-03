@@ -18,7 +18,20 @@ st.markdown(
     </style>
     """,
     unsafe_allow_html=True,
+) 
+st.markdown(
+    """
+    <style>
+    /* 1. Changes text color of ONLY paragraphs and input field labels */
+    p, [data-testid="stWidgetLabel"] {
+        color: #D63384 !important; /* Put your desired color here */
+    }
+    
+    </style>
+    """, 
+    unsafe_allow_html=True
 )
+
 
 name = st.text_input("Enter your name:")
 
