@@ -1,6 +1,7 @@
 import streamlit as st
 
-st.markdown("<h1 style='text-align: center; color: #D63384;'>🌸 Teacher's Day Card 🌸</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #D63384;'>🌸 Happy Teacher's Day! 🌸</h1>", unsafe_allow_html=True)
+st.markdown("<style>.stApp {background-color: pink;}</style>", unsafe_allow_html=True)
 
 name = st.text_input("Enter your name:")
 
