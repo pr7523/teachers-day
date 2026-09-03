@@ -2,11 +2,15 @@ import streamlit as st
 
 st.markdown("<h1 style='text-align: center; color: #D63384;'>🌸 Happy Teacher's Day! 🌸</h1>", unsafe_allow_html=True)
 st.markdown("<style>.stApp {background-color: #F4C2C2;}</style>", unsafe_allow_html=True) 
-st. markdown [data-testid="stTextInputRootElement"] {
+st. markdown ( 
+        ''' 
+        [data-testid="stTextInputRootElement"] {
         background-color: #FAFAFA !important; 
         border: 1.5px solid #8A646A !important;  
         border-radius: 8px;                    
     }
+    ''' 
+)
 
 
 
