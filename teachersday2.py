@@ -3,11 +3,7 @@ import streamlit as st
 st.markdown("<h1 style='text-align: center; color: #D63384;'>🌸 Happy Teacher's Day! 🌸</h1>", unsafe_allow_html=True)
 st.markdown("<style>.stApp {background-color: #F4C2C2;}</style>", unsafe_allow_html=True) 
 
-# Example usage
-st.title("🌸 Happy Teacher's Day! 🌸")
 name = st.text_input("Enter your name:")
-
-
 
 if st.button("💌 Open 💌"):
     name_clean = name.strip()
