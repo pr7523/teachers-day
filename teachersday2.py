@@ -2,8 +2,6 @@ import streamlit as st
 
 st.markdown("<h1 style='text-align: center; color: #D63384;'>🌸 Happy Teacher's Day! 🌸</h1>", unsafe_allow_html=True)
 st.markdown("<style>.stApp {background-color: #F4C2C2;}</style>", unsafe_allow_html=True) 
-import streamlit as st
-# Custom CSS for soft pink background and a lighter input box
 st.markdown(
     """
     <style>
