@@ -23,9 +23,9 @@ st.markdown(
     """
     <style>
     /* 1. Changes text color of ONLY paragraphs and input field labels */
-    /* Leaves h1 (heading) and buttons untouched */
+    /* Leaves h1 (heading) and (button) untouched */
     p, [data-testid="stWidgetLabel"] {
-        color: #613B3B !important; /* Put your desired text color here */
+        color: #D63384 !important; /* Put your desired text color here */
     }
     
     </style>
