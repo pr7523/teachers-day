@@ -5,7 +5,7 @@ st.markdown("<style>.stApp {background-color: #F4C2C2;}</style>", unsafe_allow_h
 /* 3. Soft white text input box with a matching border */
     [data-testid="stTextInputRootElement"] {
         background-color: #FAFAFA !important; 
-        border: 1.5px solid #8A646A !important;  
+        border: 1px solid #8A646A !important;  
         border-radius: 8px;                    
     }
 
