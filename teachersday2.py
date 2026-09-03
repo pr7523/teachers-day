@@ -2,6 +2,23 @@ import streamlit as st
 
 st.markdown("<h1 style='text-align: center; color: #D63384;'>🌸 Happy Teacher's Day! 🌸</h1>", unsafe_allow_html=True)
 st.markdown("<style>.stApp {background-color: #F4C2C2;}</style>", unsafe_allow_html=True) 
+st.markdown(
+    """
+    <style>
+    /* Input box styling */
+    div[data-baseweb="input"] {
+        background-color: #ffffff !important;
+        border-radius: 8px;
+    }
+    
+    /* Input box text color */
+    input[type="text"] {
+        color: #333333 !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
 name = st.text_input("Enter your name:")
 
